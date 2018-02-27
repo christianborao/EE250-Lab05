@@ -16,7 +16,7 @@ def Main():
 			if (x % 2 == 0):
 				GPIO.output(led_pin, GPIO.HIGH) #LED on
 		
-			else:
+			else: 
 				GPIO.output(led_pin, GPIO.LOW)
 
 			time.sleep(0.25) #delay for 250 ms
